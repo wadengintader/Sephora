@@ -31,7 +31,7 @@ const AnnouncementBar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-50 w-full bg-[#f5f5f7] border-b border-[#f5f5f7]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
+    <div className="sticky top-0 z-50 w-full bg-[#000000] border-b border-[#000000]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
       {/* Sparkle Icons Overlay */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-20">
         <Sparkles 
